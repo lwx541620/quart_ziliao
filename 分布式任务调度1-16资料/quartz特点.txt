@@ -1,0 +1,23 @@
+1、执行粒度：
+linux crontab是进程
+
+quartz是线程
+
+2、跨平台性：
+crontab只能在linux上运行
+
+quartz是java实现的，所以他是跨平台
+
+3、调度集上：
+crontab的最小执行单位是分钟级
+quartz可以达到毫秒级
+
+4、任务监控
+crontab不能实现任务监控
+quartz可以支持任务监控
+
+5、高可用
+crontab 是单机，单任务的，如果任务挂掉了，那真的是挂掉了
+
+quartz是支持高可用的
+
